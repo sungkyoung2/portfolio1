@@ -1,0 +1,32 @@
+@media all and (min-width:320px){/*320~767 모바일*/
+    #main>h1{font-size: 20px;top: -20px;}
+    #main>p{font-size: 14px;line-height: 25px;top:50px;}
+    #menu{display: none;}
+    #moblie_menu{display: block;}
+    #main_work_title{width: 96%;}
+    #main_work_img{width: 96%;margin-top: 50px;}
+    #main_work1{width: 90%;margin-top: 20px;}
+    #main_work1_left_img{width: 80%;margin:0 10%;}
+    #main_work1_right{width: 90%;margin:0 5%;}
+    #main_work1_right>img{margin-top:20px;}
+    #main_work1_right>p{margin-top:20px;}
+    #main_work1_right>button{margin-top:15px;}
+    #main_work2{width: 90%;}
+    #main_work2_left{width: 100%;}
+    #main_work2_right{display: none;}
+    #pc_mobile>ul{width: 90%;}
+    #pc_mobile>ul>li{width: 100%;margin: 0;}
+    #pc_work>ul{width: 90%;}
+    #pc_work>ul>li{width:46%;margin: 2%;}
+    #about_me1{width: 90%;}
+    #liscence{width: 92%;margin: 4%;}
+    #skills{width: 92%;margin: 4%;}
+    #about_me2{width: 90%;}
+    #contact_me>ul{width: 90%;}
+    #contact_me>ul>li:nth-child(1){width: 100%;border-right: none;}
+    #contact_me>ul>li:nth-child(2){width: 100%;border-right: none;}
+    #contact_me>ul>li:nth-child(3){width: 100%;}
+    footer>h3{float:none;}
+    footer>p{float:none;}
+    
+}

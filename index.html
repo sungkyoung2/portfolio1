@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 모바일은 화면크기를 자동으로 줄여서 표현하는 방식. 1:1사이즈의 대응을 위하여 viewport코드를 추갛ㄴ다. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO SUNG KYOUNG portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <h1>HELLO!</h1>
+        <p>Web publisher Jo sung kyoung<br>ui / ux designer</p>
+        <div id="mouse">
+            <div id="wheel"></div>
+        </div>
+    </div>
+    <!--  -->
+    <header>
+        <h1 id="logo">JSK</h1>
+        <ul id="menu">
+            <li>Home</li>
+            <li>Main</li>
+            <li>Responsive</li>
+            <li>Pc.ver</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <ul id="moblie_menu">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </header>
+    <div id="menu_popup">
+        <img src="icons/close_btn.png" alt="" id="close_bt">
+        <ul id="menu_popup_menu">
+            <li>Home</li>
+            <li>Main</li>
+            <li>Responsive
+                <ul class="sub">
+                    <li>BTS</li>
+                    <li>RALPH LAUREN</li>
+                </ul>
+            </li>
+            <li>Pc.ver
+                <ul class="sub">
+                    <li>라네즈</li>
+                    <li>써브웨이</li>
+                    <li>롯데월드</li>
+                    <li>오뚜기</li>
+                    <li>글로오아시스</li>
+                    <li>커피빈코리아</li>
+                </ul>
+            </li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <!--  -->
+    <section id="main_work">
+        <div id="main_work_title">
+            <h3>Main work</h3>
+            <p>From design planning<br>to CSS, JAVASCRIPT, JQUEARY, 100% handmade</p>
+        </div>
+        <img src="images/pc_img.jpg" alt="" id="main_work_img">
+        <div id="main_work1">
+            <img src="images/ipad.png" alt="" id="main_work1_left_img">
+            <div id="main_work1_right">
+                <img src="images/main_logo_b.png" alt="">
+                <p>저는 평소 악세사리를 좋아하여 그 중에 유명한 브랜드인 Tiffany&Co.를 주제로 선정하여 디자인 기획부터 css, Jquery, Javascript 등 작업을 통해 기존에 없던 새로운 사이트를 구현했습니다.</p>
+                <button type="button" onclick="window.open('https://sungkyoung2.github.io/tiffany/')">Let's see</button>
+            </div>
+        </div>
+        <div id="main_work2">
+            <div id="main_work2_left">
+                <div id="main_work2_fonts">
+                    <h2>fonts</h2>
+                    <ul>
+                        <li>
+                            <h3>Tiffany&Co.</h3>
+                            <h4>Yanone Kaffeesatz</h4>
+                        </li>
+                        <li>
+                            <h3>Tiffany&Co.</h3>
+                            <h4>Ubuntu</h4>
+                        </li>
+                        <li>
+                            <h3>Tiffany&Co.</h3>
+                            <h4>Castoro</h4>
+                        </li>
+                    </ul>
+                    <p>강조되는 요소들엔 Yanone Kaffeesatz폰트를 사용하고, 나머지는 깔끔하고, 잘 어울리는 폰트를 사용하였습니다.</p>
+                </div>
+                <div id="main_work2_colors">
+                    <h2>colors</h2>
+                    <ul>
+                        <li>
+                            <div class="color_box"></div>
+                            <h4>#000</h4>
+                        </li>
+                        <li>
+                            <div class="color_box"></div>
+                            <h4>#64b9b2</h4>
+                        </li>
+                        <li>
+                            <div class="color_box"></div>
+                            <h4>#fff</h4>
+                        </li>
+                        <li>
+                            <div class="color_box"></div>
+                            <h4>#eee</h4>
+                        </li>
+                    </ul>
+                    <p>티파니앤코의 고유의 느낌을 전달하고자 하였으며, 주제 색 외에는
+                        사용된 이미지를 방해하지 않는 무채색 컬러를 선택하여 사용하였습니다.</p>
+                </div>
+                <div id="main_work2_icons">
+                    <h2>icons</h2>
+                    <ul>
+                        <li><img src="icons/1.png" alt="아이콘1"></li>
+                        <li><img src="icons/2.png" alt="아이콘2"></li>
+                        <li><img src="icons/3.png" alt="아이콘3"></li>
+                        <li><img src="icons/4.png" alt="아이콘4"></li>
+                        <li><img src="icons/5.png" alt="아이콘5"></li>
+                        <li><img src="icons/6.png" alt="아이콘6"></li>
+                        <li><img src="icons/7.png" alt="아이콘7"></li>
+                        <li><img src="icons/8.png" alt="아이콘8"></li>
+                        <li><img src="icons/9.png" alt="아이콘9"></li>
+                        <li><img src="icons/10.png" alt="아이콘10"></li>
+                    </ul>
+                    <p>무채색의 아이콘을 사용하여 집중도는 물론 이미지간의 조화를 완성했습니다.</p>
+                </div>
+            </div>
+            <div id="main_work2_right">
+                <a href="https://sungkyoung2.github.io/tiffany/"><img src="images/phone_img2.png" alt="포트폴리오이미지"></a>
+                <img src="images/원본/iphone.png" alt="" id="iphoneimg">
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    <section id="pc_mobile">
+        <h3>Responsive Web</h3>
+        <p>It's a little bit, but I've done some responsive work</p>
+        <ul>
+            <li>
+                <img src="images/bts.jpg" alt="" class="pc">
+                <img src="images/bts_ipad.png" alt="" class="tablet">
+                <img src="images/bts_iphone.png" alt="" class="moblie">
+                <button  type="button" onclick="window.open('https://sungkyoung2.github.io/bts/')">BTS</button>
+            </li>
+            <li>
+                <img src="images/rl.jpg" alt="" class="pc">
+                <img src="images/rl_ipad.png" alt="" class="tablet">
+                <img src="images/rl_iphone.png" alt="" class="moblie">
+                <button type="button" onclick="window.open('https://sungkyoung2.github.io/ralphlauren/')">RALPH LAUREN</button>
+            </li>
+        </ul>
+    </section>
+    <!--  -->
+    <section id="pc_work">
+        <h3>Pc version works</h3>
+        <p>First work is my representative portfolio.<br>And besides this work, I’m looking forward for new projects and opportunities.</p>
+        <ul>
+            <li><img src="images/laneige.jpg" alt=""><button type="button" onclick="window.open('https://sungkyoung2.github.io/laneige/');">라네즈</button></li>
+            <li><img src="images/subway.jpg" alt=""><button type="button" onclick="window.open('https://sungkyoung2.github.io/subway/');">써브웨이</button></li>
+            <li><img src="images/lotteworld.jpg" alt=""><button type="button" onclick="window.open('https://sungkyoung2.github.io/lotteworld/');">롯데월드</button></li>
+            <li><img src="images/ottgi.jpg" alt=""><button type="button" onclick="window.open('https://sungkyoung2.github.io/ottogi/');">오뚜기</button></li>
+            <li><img src="images/glowoasis.jpg" alt=""><button type="button" onclick="window.open('https://sungkyoung2.github.io/glowoasis/');">글로오아시스</button></li>
+            <li><img src="images/coffeebean.jpg" alt=""><button type="button" onclick="window.open('https://sungkyoung2.github.io/coffeebean/');">커피빈코리아</button></li>
+        </ul>
+    </section>
+    <section id="about_me">
+        <h3>About Me</h3>
+        <img src="images/me.jpg" alt="" id="about_me_img">
+        <h4>Web, ux/ui designer</h4>
+        <h2>SUNG KYOUNG JO</h2>
+        <article id="about_me1">
+            <div id="liscence">
+                <h4>liscence</h4>
+                <ul>
+                    <li>
+                        <h5>컴퓨터그래픽스운용기능사</h5>
+                        <h6>2022.04</h6>
+                    </li>
+                    <li>
+                        <h5>웹디자인기능사</h5>
+                        <h6>2022.04</h6>
+                    </li>
+                    <li>
+                        <h5>GTQ 1급</h5>
+                        <h6>2022.01</h6>
+                    </li>
+                    <li>
+                        <h5>GTQ 일러스트 1급</h5>
+                        <h6>2022.01</h6>
+                    </li>
+                </ul>
+            </div>
+            <div id="skills">
+                <h4>skills</h4>
+                <ul>
+                    <li>
+                        <h5>Photoshop</h5>
+                        <h6>90%</h6>
+                        <div class="skills_bg">
+                            <div class="skills_box">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5>Illustrator</h5>
+                        <h6>85%</h6>
+                        <div class="skills_bg">
+                            <div class="skills_box">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5>html5 & css3</h5>
+                        <h6>85%</h6>
+                        <div class="skills_bg">
+                            <div class="skills_box">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5>Java script</h5>
+                        <h6>75%</h6>
+                        <div class="skills_bg">
+                            <div class="skills_box"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <article id="about_me2">
+            <h4>introduction</h4>
+            <p>안녕하세요! 저는 퍼블리셔라는 직업에 흥미를 느끼고 새로운 시작을 하게 되어 웹표준 html5, css, Jquery, javascript를 익혔으며 젠코딩과 하드코딩 및 반응형 작업을 할 수 있고, 이력서를 반응형으로 만들어 보았습니다. 포트폴리오 최상단 메인작업의 경우 디자인기획부터 script 동작에 이르기까지 최선을 다해 완성했습니다. 지금까지 쌓아온 경험을 바탕삼아 앞으로 웹퍼블리셔로서 멋지게 활동할 것을 확신합니다.</p>
+        </article>
+    </section>
+    <!--  -->
+    <section id="contact_me">
+        <h4>Contact Me</h4>
+        <ul>
+            <li>
+                <p>Sung Kyoung Jo<br>010-2646-0713</p>
+            </li>
+            <li>
+                <p>Republic of Korea<br>Uijeongbu 1-dong, Uijeongbu-si, Gyeonggi-do</p>
+            </li>
+            <li>
+                <p>mail<br>sungkyoung2@nate.com</p>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <h3>JSK</h3>
+        <P>SungKyoung Jo 2022 copyright @ ALL RIGHTS RESERVED.<BR>creating modern and responsive design for Web and Mobile</P>
+    </footer>
+</body>
+</html>
